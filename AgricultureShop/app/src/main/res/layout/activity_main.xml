@@ -10,36 +10,23 @@
         android:id="@+id/FarmerNavigateBTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="312dp"
-        android:layout_marginEnd="21dp"
+        android:layout_marginStart="48dp"
         android:text="Farmer"
-        app:layout_constraintEnd_toStartOf="@+id/UserNavigateBTN"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.42" />
 
     <Button
         android:id="@+id/UserNavigateBTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="17dp"
-        android:layout_marginBottom="451dp"
         android:text="User"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toEndOf="@+id/FarmerNavigateBTN"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="256dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="63dp"
-        android:layout_marginEnd="45dp"
-        android:layout_marginBottom="81dp"
-        app:layout_constraintBottom_toTopOf="@+id/UserNavigateBTN"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+        app:layout_constraintVertical_bias="0.42" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
