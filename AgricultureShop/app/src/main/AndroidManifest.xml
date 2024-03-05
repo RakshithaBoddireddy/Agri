@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AgricultureShop"
         tools:targetApi="31">
         <activity
+            android:name=".FarmerActivity"
+            android:exported="false" />
+        <activity
             android:name=".farmer_login"
             android:exported="false" />
         <activity

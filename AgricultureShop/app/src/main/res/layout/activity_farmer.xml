@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FarmerActivity">
+
+    <SearchView
+        android:id="@+id/farmerSearchView"
+        android:layout_width="369dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="149dp"
+        app:layout_constraintBottom_toTopOf="@+id/farmerAddProductBTN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/userManageOrderBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="166dp"
+        android:text="Manage Orders"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/farmerUpdateStatusBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:text="Update status"
+        app:layout_constraintBaseline_toBaselineOf="@+id/userManageOrderBTN"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/farmerAddProductBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="498dp"
+        android:text="Add Product"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/farmerSearchView" />
+
+    <Button
+        android:id="@+id/farmerMySalesBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="36dp"
+        android:text="My Sales"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/farmerUpdateStatusBTN" />
+
+    <Button
+        android:id="@+id/farmerDeleteProductBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="53dp"
+        android:text="Delete Product"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/farmerAddProductBTN" />
+
+    <Button
+        android:id="@+id/farmerLogoutBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="1dp"
+        android:text="Logout"
+        app:layout_constraintEnd_toEndOf="@+id/farmerMySalesBTN"
+        app:layout_constraintStart_toStartOf="@+id/farmerUpdateStatusBTN"
+        app:layout_constraintTop_toBottomOf="@+id/farmerMySalesBTN" />
+
+    <!-- drawer_layout.xml -->
+    <!-- navigation_drawer_menu.xml -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
