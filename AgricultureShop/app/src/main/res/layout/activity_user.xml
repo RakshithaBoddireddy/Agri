@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FarmerActivity">
+
+  <SearchView
+      android:id="@+id/searchView"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:layout_marginStart="11dp"
+      android:layout_marginTop="54dp"
+      android:layout_marginEnd="11dp"
+      android:layout_marginBottom="312dp"
+      app:layout_constraintBottom_toTopOf="@+id/userHelpBTN"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/userAccountBTN"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="32dp"
+      android:layout_marginBottom="603dp"
+      android:text="My Account"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/searchView"
+      app:layout_constraintVertical_bias="0.923" />
+
+  <Button
+      android:id="@+id/userCartBTN"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="151dp"
+      android:text="My cart"
+      app:layout_constraintEnd_toEndOf="@+id/userShipmentBTN"
+      app:layout_constraintStart_toStartOf="@+id/userShipmentBTN"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/userAddressBTN"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="19dp"
+      android:layout_marginTop="72dp"
+      android:text="My Address"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/userAccountBTN" />
+
+  <Button
+      android:id="@+id/userShipmentBTN"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="77dp"
+      android:layout_marginEnd="61dp"
+      android:text="Order Status"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/userCartBTN" />
+
+  <Button
+      android:id="@+id/userHelpBTN"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="33dp"
+      android:layout_marginBottom="356dp"
+      android:text="Help"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/searchView" />
+
+  <Button
+      android:id="@+id/userLogoutBTN"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="352dp"
+      android:layout_marginEnd="66dp"
+      android:layout_marginBottom="353dp"
+      android:text="Logout"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/searchView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
