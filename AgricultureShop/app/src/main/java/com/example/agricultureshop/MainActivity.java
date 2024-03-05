@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         userBTN.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent ini2 = new Intent(MainActivity.this, UserLoginActivity.class);
+                Intent ini2 = new Intent(MainActivity.this, com.example.agrishop.UserLoginActivity.class);
                 startActivity(ini2);
             }
         });
