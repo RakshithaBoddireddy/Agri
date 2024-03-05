@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/userPWD"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FarmerLoginActivity">
+
+    <TextView
+        android:id="@+id/usernameTV"
+        android:layout_width="117dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="80dp"
+        android:gravity="center|center_horizontal"
+        android:text="User Name"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.088" />
+
+    <EditText
+        android:id="@+id/farmerTXT"
+        android:layout_width="231dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:hint="Enter User Name"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/farmerET"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/usernameTV"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/passwordTV"
+        android:layout_width="111dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="537dp"
+        android:gravity="center"
+        android:text="Password"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usernameTV"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <EditText
+        android:id="@+id/farmerET"
+        android:layout_width="208dp"
+        android:layout_height="62dp"
+        android:layout_marginEnd="37dp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        app:layout_constraintBaseline_toBaselineOf="@+id/passwordTV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/passwordTV" />
+
+    <TextView
+        android:id="@+id/loginTV"
+        android:layout_width="120dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginBottom="28dp"
+        android:gravity="center"
+        android:text="Login"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/farmerTXT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/farmerLoginBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-20dp"
+        android:layout_marginTop="56dp"
+        android:text="Login"
+        app:layout_constraintStart_toStartOf="@id/progressBar2"
+        app:layout_constraintTop_toBottomOf="@id/progressBar2" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="@id/farmerET"
+        app:layout_constraintTop_toBottomOf="@id/farmerET" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
