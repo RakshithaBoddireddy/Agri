@@ -5,6 +5,7 @@
     android:id="@+id/userPWD"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#A3F4A6"
     tools:context=".FarmerLoginActivity">
 
     <TextView
