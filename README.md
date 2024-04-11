@@ -13,7 +13,9 @@ Email:Rakshitha@gmail.com
 Password:Rakshitha@123
 
 Sequence Information:
+
 ![image](https://github.com/RakshithaBoddireddy/Agri/assets/78869553/470dee88-1ae4-4fba-b9d8-54fc62525d25)
+
 
 	Firstly, We will be displaying the Home Page of our App containing Login and Registration.
 	If the User didn’t have an account, needs to register by clicking on register button.
