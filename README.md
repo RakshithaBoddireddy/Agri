@@ -1,16 +1,16 @@
 Team Members:
-Sumanth Yeruva
-Shiva Ram Reddy Marthala
-Sai Prakash Goud
-Rakshitha Boreddy
-Martin  Sanchez
+* Sumanth Yeruva
+* Shiva Ram Reddy Marthala
+* Sai Prakash Goud
+* Rakshitha Boreddy
+* Martin  Sanchez
 
 App Credentials:
 Email: Sumanth@gmail.com
 Password: Sumanth@123
 (OR)
-Email:Rakshitha@gmail.com
-Password:Rakshitha@123
+Email: Rakshitha@gmail.com
+Password: Rakshitha@123
 
 Sequence Information:
 
